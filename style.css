@@ -12,8 +12,15 @@ body{
 
 header{
     background-color:#01176f ;
+    display: flex;
+    justify-content: space-between;
     width: 100vw;
-    height: 80px;
+    height: 90px;
+}
+
+header img{
+    padding: 8px;
+    filter: invert(1);
 }
 
 main{
