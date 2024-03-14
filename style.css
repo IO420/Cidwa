@@ -44,4 +44,7 @@ footer{
     max-width: 20vw;
     min-height: 20vh;
     text-align: center;
+    img{
+        width: 8vw;
+    }
 }
