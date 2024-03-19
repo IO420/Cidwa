@@ -19,6 +19,7 @@ header{
 }
 
 header img{
+    height: 75px;
     padding: 8px;
     filter: invert(1);
 }
