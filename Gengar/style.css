@@ -16,43 +16,61 @@ body{
     grid-template-columns: 1fr 1fr;
     border: 3px solid black;
     max-width: 50vw;
+    min-width: min-content;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+
+}
+
+.stats{
+    border: 3px solid rgb(207, 207, 207);
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.descripcion{
+    font-size: 25px;
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    margin: 20px;
 }
 
 .carac{
     background-color: rgb(47, 175, 218);
     border-radius: 7px;
-    min-width: 240px
+    min-width: 240px;
+    margin: 20px;
 }
 .listado{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-
 }
 
 .pokemon{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color:rgb(199, 199, 199) ;
     border: 3px solid dimgray;
     grid-column: 1;
     grid-row: 1;
 }
 
-.descripcion{
-    font-size: 25px;
-    grid-column: 2;
-    grid-row: span / 1;
-    text-align: center;
-    gap: 30px;
-}
-
-.stats{
-    border: 3px solid dimgray;
-    grid-column: 1;
-    grid-row: 2;
-    background-color: dimgray;
-    border-radius: 7px;
+.pokemon img{
+    width: 25vw;
+    min-width: 350px;
 }
 
 ul{
@@ -62,4 +80,44 @@ ul{
 .categoria{
     grid-column: 2;
     grid-row: 1;
+}
+
+.elemento{
+    text-align: center;
+    color: white;
+    border-radius: 7px; 
+    padding: 10px;
+}
+
+.fantasma{
+    background-color: blueviolet;
+}
+
+.veneno{
+    background-color:darkorchid;
+}
+.tierra{
+    background-color: gold;
+}
+.psiquico{
+    background-color: fuchsia;
+}
+
+.siniestro{
+    background-color: dimgrey;
+}
+
+@media (width<=1900px){
+    .grid{
+        grid-template-columns: 1fr 0;
+        grid-template-rows: repeat(3,1fr);
+    }
+    .descripcion{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .stats{
+        grid-column: 1;
+        grid-row: 3;
+    }
 }
