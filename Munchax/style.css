@@ -89,23 +89,10 @@ ul{
     padding: 10px;
 }
 
-.fantasma{
-    background-color: blueviolet;
-}
-
-.veneno{
-    background-color:darkorchid;
-}
-.tierra{
+.Lucha{
     background-color: gold;
 }
-.psiquico{
-    background-color: fuchsia;
-}
 
-.siniestro{
-    background-color: dimgrey;
-}
 
 @media (width<=1900px){
     .grid{
