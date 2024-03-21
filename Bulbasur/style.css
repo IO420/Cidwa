@@ -89,25 +89,25 @@ ul{
     padding: 10px;
 }
 
-.fantasma{
-    background-color: blueviolet;
+.hielo{
+    background-color: blue;
 }
 
 .veneno{
     background-color:darkorchid;
 }
-.tierra{
-    background-color: gold;
+.fuego{
+    background-color: orange;
 }
 .psiquico{
     background-color: fuchsia;
 }
 
-.siniestro{
-    background-color: dimgrey;
+.volador{
+    background-color: rgb(47, 175, 218);
 }
 
-.plata{
+.planta{
     background-color: green;
 }
 
