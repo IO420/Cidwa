@@ -72,6 +72,7 @@ body{
 
 .pokemon img {
     width: 20vw;
+    min-width: 400px;
     height: auto;
     object-fit: cover;
 }
@@ -82,13 +83,14 @@ body{
     grid-row: span / 1;
     text-align: center;
     gap: 30px;
+    border-radius: 7px;
 }
 
 .stats{
-    border: 3px solid dimgray;
+    border: 3px solid rgb(124, 124, 124);
     grid-column: 1;
     grid-row: 2;
-    background-color: dimgray;
+    background-color: rgb(124, 124, 124);
     border-radius: 7px;
 }
 
