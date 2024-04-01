@@ -10,6 +10,24 @@ body{
     min-height: 100vh;
     background: url("https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png");
 }
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+}
+
+.flecha{
+    width: 150px;
+    height: 150px;
+}
+.isq{
+    transform: scaleX(-1)
+}
+
+.flecha:hover{
+    width: 160px;
+    height: 160px;
+}
 
 header{
     background-color:#01176f ;
@@ -26,6 +44,7 @@ header img{
 }
 
 main{
+    position: relative;
     display: flex;
     flex: 1;
     justify-content: center;
@@ -34,6 +53,10 @@ main{
     flex-wrap: wrap;
     max-width: 50vw;
     background-color: white;
+}
+
+main img{
+    width: 150px;
 }
 
 footer{
