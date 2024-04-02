@@ -7,7 +7,7 @@ body{
     flex-direction: column;
     gap: 7px;
     align-items:  center;
-    background: url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+    background: url("https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png");
 }
 
 .grid{
@@ -44,7 +44,6 @@ body{
     grid-row: 1;
     text-align: center;
     margin: 20px;
-    background-color: rgb(219, 219, 219);
 }
 
 .carac{
@@ -64,34 +63,14 @@ body{
     justify-content: center;
     align-items: center;
     background-color:rgb(199, 199, 199) ;
-    border: 3px solid rgb(199, 199, 199);
-    border-radius: 7px;
+    border: 3px solid dimgray;
     grid-column: 1;
     grid-row: 1;
 }
 
-.pokemon img {
-    width: 20vw;
-    min-width: 400px;
-    height: auto;
-    object-fit: cover;
-}
-
-.descripcion{
-    font-size: 25px;
-    grid-column: 2;
-    grid-row: span / 1;
-    text-align: center;
-    gap: 30px;
-    border-radius: 7px;
-}
-
-.stats{
-    border: 3px solid rgb(124, 124, 124);
-    grid-column: 1;
-    grid-row: 2;
-    background-color: rgb(124, 124, 124);
-    border-radius: 7px;
+.pokemon img{
+    width: 25vw;
+    min-width: 350px;
 }
 
 ul{
@@ -110,22 +89,26 @@ ul{
     padding: 10px;
 }
 
-.fantasma{
-    background-color: blueviolet;
+.hielo{
+    background-color: blue;
 }
 
 .veneno{
     background-color:darkorchid;
 }
-.tierra{
-    background-color: gold;
+.fuego{
+    background-color: orange;
 }
 .psiquico{
     background-color: fuchsia;
 }
 
-.siniestro{
-    background-color: dimgrey;
+.volador{
+    background-color: rgb(47, 175, 218);
+}
+
+.planta{
+    background-color: green;
 }
 
 @media (width<=1900px){
