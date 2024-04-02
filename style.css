@@ -41,11 +41,25 @@ footer{
 
 .caja{
     border: 3px solid black;
+    filter: opacity(0.8);
+    border-radius: 7px;
     min-width: 10vw;
     max-width: 20vw;
     min-height: 20vh;
     text-align: center;
-    img{
-        width: 8vw;
-    }
+}
+
+.caja img {
+    width: 8vw;
+}
+
+.caja:hover{
+    filter: opacity(1);
+    min-width: 11vw;
+    min-height: 21vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
