@@ -1,0 +1,24 @@
+.Nombre{
+  background-color: hsl(180, 47%, 54%);
+  
+}
+
+.Grid{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
+}
+
+.Imagen{
+    grid-column: 1;
+    img{
+        width:400px;
+     
+    }
+
+}
+
+.Descripcion{
+    background-color: aquamarine;
+    
+}
